@@ -12,29 +12,42 @@
 <body>
     <h1>Calculator</h1>
 
-    <div id="Calculator">
+    <div class="calculator-container">
         <div id="display">0</div>
-
         <div class="buttons">
-            <button class="clear">AC</button>
 
-            <button class="operator" data-op="+">+</button>
-            <button class="operator" data-op="-">-</button>
-            <button class="operator" data-op="*">*</button>
-            <button class="operator" data-op="/">/</button>
+            <div class="button-row">
+                <button class="clear">AC</button>
+                <button class="backspace">Delete</button>
+            </div>
 
-            <button class="digit">0</button>
-            <button class="digit">1</button>
-            <button class="digit">2</button>
-            <button class="digit">3</button>
-            <button class="digit">4</button>
-            <button class="digit">5</button>
-            <button class="digit">6</button>
-            <button class="digit">7</button>
-            <button class="digit">8</button>
-            <button class="digit">9</button>
+            <div class="button-row">
+                <button class="digit">7</button>
+                <button class="digit">8</button>
+                <button class="digit">9</button>
+                <button class="operator" data-op="/">/</button>
+            </div>
 
-            <button class="equals">=</button>
+            <div class="button-row">
+                <button class="digit">4</button>
+                <button class="digit">5</button>
+                <button class="digit">6</button>
+                <button class="operator" data-op="*">*</button>
+            </div>
+
+            <div class="button-row">
+                <button class="digit">1</button>
+                <button class="digit">2</button>
+                <button class="digit">3</button>
+                <button class="operator" data-op="-">-</button>
+            </div>
+            
+            <div class="button-row">
+                <button class="digit">0</button>
+                <button class="decimal">.</button>
+                <button class="equals">=</button>
+                <button class="operator" data-op="+">+</button>
+            </div>
         </div>
     </div>
     
